@@ -6,13 +6,13 @@ This repository provides resources and guidance for integrating virtual reality 
 
 ## Table of Contents
 
-1. [Enabling VR Mode](#enabling-vr-mode)
-2. [Configuring VR Settings](#configuring-vr-settings)
-3. [Designing VR-Compatible Environments](#designing-vr-compatible-environments)
-4. [Optimizing Performance](#optimizing-performance)
-5. [Testing in VR Mode](#testing-in-vr-mode)
-6. [Considering VR-Specific Mechanics](#considering-vr-specific-mechanics)
-7. [Documentation](#documentation)
+1. [Enabling VR Mode]
+2. [Configuring VR Settings]
+3. [Designing VR-Compatible Environments]
+4. [Optimizing Performance]
+5. [Testing in VR Mode]
+6. [Considering VR-Specific Mechanics]
+7. [Documentation]
 
 ## ⚙️ Enabling VR Mode
 
