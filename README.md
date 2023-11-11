@@ -14,7 +14,7 @@ PlaceIds are used with the TeleportService to move players between different pla
 ## TeleportService:
 
 The TeleportService is a Roblox service that provides functions for teleporting players between places.
-The :Teleport method is used to move players to a different place. It takes the target PlaceId and player as parameters.
+The ":Teleport" method is used to move players to a different place. It takes the target PlaceId and player as parameters.
 
 ## Universe:
 
@@ -29,4 +29,4 @@ In the provided script, the onTouch function is connected to the Touched event o
 ## Cross-Game Communication:
 
 If you have a universe of games, you might want to implement cross-game communication or data sharing. This could involve using services like DataStore or MessagingService to share data between games.
-Here's an example of how you might use the TeleportService to teleport a player to a different place within the same game:
+
