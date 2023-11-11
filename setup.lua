@@ -30,8 +30,9 @@ end
 local teleportPart = script.Parent  -- Assuming the script is a child of the part
 
 teleportPart.Touched:Connect(onTouch)
+-- If you see this for a long time, it is recommended to try again.
 teleportPart.Touched:Connect(function()
-    print("try again if you see this for a long time")
+    print("Try again if you see this for a long time")
     end
     
     
