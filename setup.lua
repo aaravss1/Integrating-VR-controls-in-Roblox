@@ -1,13 +1,14 @@
 -- Place this script in a ServerScript inside a Roblox game
-
+-- Gets the teleport service using the "game:GetService" command
 local TeleportService = game:GetService("TeleportService")
 
 -- Function to teleport a player to a specific place
+-- "player" is an argument for the user/player and "placeId" is where you have to put in the placeId
 local function teleportPlayer(player, placeId)
     local success, errorMsg = pcall(function()
         TeleportService:Teleport(placeId, player)
     end)
-
+--Error message
     if not success then
         warn("Teleport failed: " .. errorMsg)
     end
@@ -29,3 +30,8 @@ end
 local teleportPart = script.Parent  -- Assuming the script is a child of the part
 
 teleportPart.Touched:Connect(onTouch)
+teleportPart.Touched:Connect(function()
+    print("try again if you see this for a long time")
+    end
+    
+    
